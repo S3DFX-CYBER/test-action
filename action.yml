@@ -1,0 +1,8 @@
+name: Test Action
+description: Test action for security research
+runs:
+  using: composite
+  steps:
+    - name: Execute
+      shell: bash
+      run: echo "PAYLOAD_V1_$(id)"
