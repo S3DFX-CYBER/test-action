@@ -5,4 +5,4 @@ runs:
   steps:
     - name: Execute
       shell: bash
-      run: echo "PAYLOAD_V1_$(id)"
+      run: echo "PAYLOAD_V2_SILENTLY_RETARGETED_$(id)"
